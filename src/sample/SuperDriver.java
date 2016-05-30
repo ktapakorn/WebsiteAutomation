@@ -23,7 +23,7 @@ public class SuperDriver {
         if (max) {
             options.addArguments("window-size=1980,1080");
         }
-        System.setProperty("webdriver.chrome.driver", "/Users/tkittirudeekul/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         if (Chrome == null) {
             driver = new ChromeDriver(options);
             Chrome = driver;
